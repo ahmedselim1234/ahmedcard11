@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+::selection{
+    background-color: rgb(218, 207, 229);
+}
+body{
+    background-color: rgb(157, 236, 242);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+form{
+   box-shadow: 0 5px 10px ;
+    background-color:white;
+    width:80%;
+   
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+
+   
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right:2px  solid black;
+    padding: 30px;
+    width:50%;
+    position: relative;
+   
+   
+}
+.locatoin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#il{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+i{
+    font-weight: 400px;
+    font-size: 1.3em;
+    color: rgb(80, 14, 142);
+}
+.locatoin,.phone,.email{
+    margin: 20px;
+}
+.large{
+    font-weight: large;
+    font-size: 1.3em;
+}
+.div2{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+   
+    padding: 30px;
+   
+    position: relative;
+}
+.first{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: rgb(80, 14, 142);
+}
+p{
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+input{
+    margin-bottom:7px;
+    border: none;
+    background-color: rgb(238, 235, 240);
+    padding: 5px;
+    border-radius: 3px;
+}
+.sub{
+    cursor: pointer;
+    width: 80px;
+    color: aliceblue;
+    font-weight: 500;
+    background-color:  rgb(80, 14, 142);
+}
+.mass{
+    height:60px ;
+}
+@media(max-width:654px){
+    form{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .div1{
+        border: none;
+        display: flex;
+       
+
+    }
+
+}
+@media(min-width:186px)and(max-width:275px){
+    form{
+        padding: 10px;
+
+    }
+    .email{
+        padding: 10px;
+    }
+
+}
+
+
